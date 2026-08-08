@@ -1,0 +1,56 @@
+{
+  "project": "ReDesign VR",
+  "version": "1.0",
+  "hardware": [
+    {
+      "id": "hw-01",
+      "name": "Oculus Quest 2",
+      "display": {
+        "resolution": "1832 x 1920 per eye",
+        "verified": true
+      },
+      "refreshRate": {
+        "value": "90Hz",
+        "verified": true
+      },
+      "batteryLife": {
+        "value": "2-3 hours",
+        "verified": false
+      },
+      "deploymentMetrics": {
+        "egypt": {
+          "importCost": "$400 (plus tariffs)",
+          "localAvailability": "Low - Requires import via specialized retailers",
+          "maintenanceCycle": "6 months",
+          "scalability": "Moderate (Limited by local supply chain constraints)",
+          "verified": true
+        }
+      }
+    },
+    {
+      "id": "hw-02",
+      "name": "HTC Vive Pro 2",
+      "display": {
+        "resolution": "2448 x 2448 per eye",
+        "verified": true
+      },
+      "refreshRate": {
+        "value": "120Hz",
+        "verified": true
+      },
+      "batteryLife": {
+        "value": null,
+        "verified": false
+      },
+      "deploymentMetrics": {
+        "egypt": {
+          "importCost": "$800 (plus tariffs)",
+          "localAvailability": "Very Low",
+          "maintenanceCycle": "Unknown",
+          "scalability": "Low",
+          "verified": false
+        }
+      }
+    }
+  ]
+}
